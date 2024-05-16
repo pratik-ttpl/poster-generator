@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wanted Poster</title>
+        <style>
+            
+            main {
+                display: flex;
+                font-family: "Ultra", serif;
+                height: 100vh;
+                margin: auto .6rem;
+                min-height: 41.15rem;
+            }
+    
+            em {
+                font-size: 1rem;
+                font-style: italic;
+                margin: .7rem;
+            }
+    
+            h1 {
+                font-family: "Ewert", cursive;
+                font-size: 3.6666694383206rem;
+                font-weight: normal;
+            }
+    
+            h2 {
+                font-size: 1.5rem;
+                margin: .7rem auto .55rem auto;
+            }
+    
+            u {
+                font-size: 2rem;
+                text-decoration-line: underline;
+                text-decoration-style: double;
+            }
+    
+            .poster {
+                background-image: url("https://dimmageiras.github.io/101-computing-wanted-poster-css-task/images/parchment.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                box-shadow: .125rem .25rem .5rem .1875rem #000;
+                box-sizing: border-box;
+                padding-top: 1.7rem;
+                text-align: center;
+            }
+    
+            .subheading {
+                font-size: 1.34rem;
+                margin: 1rem auto .48rem auto;
+            }
+    
+            .mugshot {
+                background-image: url(https://dimmageiras.github.io/101-computing-wanted-poster-css-task/images/mugshot.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain !important;
+                border: .125rem solid #291200;
+                display: inline-block;
+                filter: sepia(60%);
+                height: 19.1rem;
+                opacity: .9;
+                padding: .625rem;
+                width: 17.5rem;
+                mix-blend-mode: multiply !important;
+                border: 0 !important;
+            }
+    
+            .name {
+                font-size: 2rem;
+                margin: .7rem
+            }
+    
+           
+        </style>
+    </head>
+    
+    <body>
+            <div class="poster">
+                <h1 id="posterTitle">WANTED</h1>
+                <p id="subheading" class="subheading">Dead or Alive</p>
+                <div class="mugshot" role="img" aria-label="mugshot-img"></div>
+                <p class="name" id="criminalName">Type Here</p>
+            </div>
+    </body>
+    
+    </html>
